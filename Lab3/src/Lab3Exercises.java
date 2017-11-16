@@ -5,7 +5,7 @@ public class Lab3Exercises {
 		JFrame myFrame = new JFrame("Kenmax");
 		myFrame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
 		myFrame.setLocation(855, 350);
-		myFrame.setSize(200, 200);
+		myFrame.setSize(320, 220);
 		MyPanelClass myPanel = new MyPanelClass();
         myFrame.getContentPane().add(myPanel);
 		myFrame.setVisible(true);
